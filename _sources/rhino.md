@@ -97,3 +97,11 @@ At times, you might draw several individual line segments that actually represen
 
 Alternatively, you might want to split a line into multiple segments. Type Split in the Command window, and the follow the directions to split a line, in a similar fashion to the Trim command (the latter deletes line segments, while Split separates them).
 
+## Adding Fill for Rocks and Other Objects
+
+To add a fill or hatch to rocks or other objects, follow the same steps as adding fill to soils. The easiest way to add multiple hatches is to turn off the sketch and soils, leaving only the outlines of the rocks and the lots. Then select Drafting -> Hatch. Ensure that the Boundary option is checked, then begin adding hatches. Toggle the CombineRegions on and off while adding hatches so that each rock has its own fill. Zoom in to make sure you are adding fill to small areas that may have slight overlap. The fastest approach is to add hatches with the CombineRegions option set to No for all rocks that have no overlap, which should be the majority of rocks. Then press Enter. Then with CombineRegions set to Yes, add hatches to the rocks that have multiple parts, and press Enter for each rock. Note that any objects extending outside of excavation boundaries will not require a hatch. For example, hypothetical rock shapes often extend outside of the excavation boundaries and do not represent closed curves; thus, they can not have a fill added. Another approach is to lock the Lots layer to only select rocks and other objects. Then you can add hatches to the rocks without worrying about areas that overlap with lots. However, rocks and other objects along the excavation boundaries will require the Lots layer to be unlocked and selectable. Note that any hatches can be combined or separated with the Group and Ungroup options from the Command window.
+
+## Exporting to Adobe Illustrator
+
+Once the basic outline of the drawing is complete, turn on and unlock all layers except the scanned Sketch. Optionally, add a simple scale bar using a single polyline that represents about half the dimension of the excavation unit (for example, for a 2 x 2 m unit, use a scale of 1 m). Left click and drag in the view port to select all elements. Go to File -> Export Selection. Save as type Adobe Illustrator (*.ai). Keep the export options as Snapshot of current view and RGB.
+

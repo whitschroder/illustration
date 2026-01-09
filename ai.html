@@ -334,7 +334,9 @@
 <button class="btn btn-sm pst-navbar-icon search-button search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
     <i class="fa-solid fa-magnifying-glass fa-lg"></i>
 </button>
-
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
 </div></div>
       
     </div>
@@ -350,6 +352,20 @@
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#opening-the-drawing-in-adobe-illustrator-and-copying-to-the-template">Opening the Drawing in Adobe Illustrator and Copying to the Template</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#editing-the-style-of-elements">Editing the Style of Elements</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#changing-the-soil-color">Changing the Soil Color</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#adding-stippling-to-the-soils">Adding Stippling to the Soils</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#editing-and-adding-text">Editing and Adding Text</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#finishing-edits">Finishing Edits</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#exporting-the-drawing">Exporting the Drawing</a></li>
+</ul>
+            </nav>
         </div>
     </div>
 </div>
@@ -361,6 +377,45 @@
                   
   <section class="tex2jax_ignore mathjax_ignore" id="adobe-illustrator">
 <h1>Adobe Illustrator<a class="headerlink" href="#adobe-illustrator" title="Link to this heading">#</a></h1>
+<section id="opening-the-drawing-in-adobe-illustrator-and-copying-to-the-template">
+<h2>Opening the Drawing in Adobe Illustrator and Copying to the Template<a class="headerlink" href="#opening-the-drawing-in-adobe-illustrator-and-copying-to-the-template" title="Link to this heading">#</a></h2>
+<p>Now open the .ai file in Adobe Illustrator. Open the template file in a new tab. Select all elements of your drawing by left clicking and dragging with the Selection tool. Use Edit -&gt; Copy, then switch tabs to the template file. Unlock all layers, and in the hamburger menu, turn on Paste Remembers Layers. Then use Edit -&gt; Paste.</p>
+<p>Resize the drawing by selecting all elements, and matching your polyline scale to the template scale bar. You can move all elements by clicking inside the drawing and dragging, and rescale by holding the shift key and dragging one of the corners of the drawing. Then move the drawing to the center of the artboard. Resize the artboard by clicking Document Setup, the Edit Artboards. After resizing the artboard click the Select tool to exit out of the artboard. Unlock the Background layer and resize to match the artboard. Select and move the text (scale bar and legend) if necessary. Edit the scale bar text if necessary so that the higher value matches the scale. Now select the polyline you drew in Rhino to match the scale, and delete.</p>
+<p>At any time, press ctrl 0 to zoom to the full extent. Use the Zoom tool to zoom in, or hold alt to zoom out. To move elements lightly (nudge), hold ctrl while pressing the up, down, left, or right arrows.</p>
+</section>
+<section id="editing-the-style-of-elements">
+<h2>Editing the Style of Elements<a class="headerlink" href="#editing-the-style-of-elements" title="Link to this heading">#</a></h2>
+<p>Next, going layer by layer, we will edit the styles to match our legend. Beginning with the Lot layer, select the surface and change the Brush Definition from Basic to Superficie (dotted line). Select the vertical sides of the excavation and change to Limites (dashed-dotted line). Select the lower limit of the excavation, and change to either Limites, Roca Madre, or the relevant style. Keep the extra lot lines for now, but we will delete them later.</p>
+<p>Move to the next layer, which should be Faced stone. Select all elements in this layer by clicking the circle to the right of the layer in the Layers panel. Then change the brush to Roca Madre/Cara Piedra Tallada (double weighted line). Next, select all Hypothetical rock shapes, and change the brush style to Piedra o Rasgo Hipotetico (dashed line). Then, select all rocks, and change the brush style to Piedra Normal. Next, select all Limestone Fill and change the fill color to white (RGB: 255, 255, 255 or hex code #FFFFFF. Do the same with Sandstone Fill or any other objects. For sandstone, use the color shown in the legend (RGB: 150, 90, 56 or hex code #965A38). For any other objects, choose a suitable color to also be included in the legend.</p>
+</section>
+<section id="changing-the-soil-color">
+<h2>Changing the Soil Color<a class="headerlink" href="#changing-the-soil-color" title="Link to this heading">#</a></h2>
+<p>The next step is to edit the soil colors to match the Munsell designations assigned in the field. Refer to field notes or the report to find these field designations. The following website includes RGB approximations of the <a class="reference external" href="https://pteromys.melonisland.net/munsell">Munsell color codes</a>.</p>
+<p>Select each soil layer fill and open the color picker in Adobe Illustrator by double-clicking on the fill color in the left menu. Referring to the field notes, we see that the first lot was assigned the Munsell color code 7.5YR 4/2. Navigating to the Munsell Color Palette website, edit the values at the right, and click Go to. The Selected color will update, with the appropriate RGB code. Using these numbers, edit the color in the Adobe Illustrator color picker and click OK. Proceed with the other lots.</p>
+</section>
+<section id="adding-stippling-to-the-soils">
+<h2>Adding Stippling to the Soils<a class="headerlink" href="#adding-stippling-to-the-soils" title="Link to this heading">#</a></h2>
+<p>To add texture to the soils, we use stippling of different weights. At times, the soil colors do not always align with the lots assigned in the field, so the stipples add additional information to identify each lot in the drawing.</p>
+<p>With the Stippling layer selected, select the Paintbrush tool, and choose one of the scatter brushes under Brush Definition. Make sure the stroke color is set to black (RGB: 0, 0, 0 or hex code #000000). Hold the left mouse and drag to add the scatter brush. Using a single stroke is easier than multiple strokes; just hold the mouse down while snaking back and forth to fill the area of the first lot.</p>
+<p>Next, we are going to mask areas outside of the first lot. First, select the soil fill representing the first lot and Edit -&gt; Copy. Next, select the stipple you just drew. In the Transparency panel, click Make Mask. Click the black square (Click or Alt-Click to edit opacity mask). Then Edit -&gt; Paste in Place. Make sure Clip is checked. If the stipple is no longer black, you might need to toggle Invert Mask on or off. Once the stipple is clipped and black, in the Transparency window, click back on the left square (Click to stop editing opacity mask). Proceed with each lot, selecting a different scatter brush for adjacent lots. You can repeat scatter brushes once you run out. Note that some scatter brushes are too dense and heavy and should not be used. Select the scatter brushes that are the least obtrusive. I prefer Scatter Brush 1, Scatter Brush 3, Scatter Brush 5, Scatter Brush 6, and Scatter Brush 7.</p>
+<p>When done, select and delete the lines between each lot. These lines served as guides while completing the drawing and are no longer necessary.</p>
+</section>
+<section id="editing-and-adding-text">
+<h2>Editing and Adding Text<a class="headerlink" href="#editing-and-adding-text" title="Link to this heading">#</a></h2>
+<p>The final steps require editing the text. First, update the information at top right, which should include the site name and state. The next line should represent the lot number or unit number, whether the drawing is a plan or profile. If a plan, specify if the drawing represents the beginning or the end of the lot. If a profile, specify the direction. The third line is the year, and the final line is the name or names of the artist.</p>
+<p>Now update the direction shown at the top of drawing. The angle should represent the compass direction from left to right. The orientation of the unit can be found in field notes or the report and converted to the appropriate direction by adding 90 degrees (and subtracting 360 if the value is larger than 360).</p>
+<p>Double-check the scale bar, and remove any items in the legend that are not relevant to the drawing.</p>
+<p>Add labels for each lot, with arrows. To add any additional text, use the Type tool, or copy and paste any text and then edit.</p>
+</section>
+<section id="finishing-edits">
+<h2>Finishing Edits<a class="headerlink" href="#finishing-edits" title="Link to this heading">#</a></h2>
+<p>Make any final edits, resizing elements, recentering objects, etc. You might notice “ghost” lines, especially along the left or right side of the drawing. These lines will appear light gray. These lines reflect issues with line and polygon features misaligning. To fix these lines, select any fill elements, and go to Object -&gt; Path -&gt; Offset Path. Change the offset to a low value (for example 0.01 cm). Adjust as necessary to eliminate these ghost lines. This step is not always necessary.</p>
+<p>Resize the artboard, keeping in mind that this image will be copied into an 8.5 x 11 in. document.</p>
+</section>
+<section id="exporting-the-drawing">
+<h2>Exporting the Drawing<a class="headerlink" href="#exporting-the-drawing" title="Link to this heading">#</a></h2>
+<p>Go to File -&gt; Export -&gt; Export as, and save as JPEG. Change quality to Maximum (drag up to 10), and change resolution to High (300 ppi).</p>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -408,6 +463,28 @@
             </div>
             
             
+              
+                <dialog id="pst-secondary-sidebar-modal"></dialog>
+                <div id="pst-secondary-sidebar" class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#opening-the-drawing-in-adobe-illustrator-and-copying-to-the-template">Opening the Drawing in Adobe Illustrator and Copying to the Template</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#editing-the-style-of-elements">Editing the Style of Elements</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#changing-the-soil-color">Changing the Soil Color</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#adding-stippling-to-the-soils">Adding Stippling to the Soils</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#editing-and-adding-text">Editing and Adding Text</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#finishing-edits">Finishing Edits</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#exporting-the-drawing">Exporting the Drawing</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
               
             
           </div>

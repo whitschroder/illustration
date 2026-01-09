@@ -365,6 +365,8 @@
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#drawing-the-limits-of-the-excavation-drawing">Drawing the Limits of the Excavation Drawing</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#drawing-the-lots-and-adding-a-fill-for-soils">Drawing the Lots and Adding a Fill for Soils</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#drawing-rocks-and-other-objects">Drawing Rocks and Other Objects</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#adding-fill-for-rocks-and-other-objects">Adding Fill for Rocks and Other Objects</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#exporting-to-adobe-illustrator">Exporting to Adobe Illustrator</a></li>
 </ul>
             </nav>
         </div>
@@ -440,6 +442,14 @@
 <p>At times, you might draw several individual line segments that actually represent a single line. To combine them, select them, and type Join in the Command window.</p>
 <p>Alternatively, you might want to split a line into multiple segments. Type Split in the Command window, and the follow the directions to split a line, in a similar fashion to the Trim command (the latter deletes line segments, while Split separates them).</p>
 </section>
+<section id="adding-fill-for-rocks-and-other-objects">
+<h2>Adding Fill for Rocks and Other Objects<a class="headerlink" href="#adding-fill-for-rocks-and-other-objects" title="Link to this heading">#</a></h2>
+<p>To add a fill or hatch to rocks or other objects, follow the same steps as adding fill to soils. The easiest way to add multiple hatches is to turn off the sketch and soils, leaving only the outlines of the rocks and the lots. Then select Drafting -&gt; Hatch. Ensure that the Boundary option is checked, then begin adding hatches. Toggle the CombineRegions on and off while adding hatches so that each rock has its own fill. Zoom in to make sure you are adding fill to small areas that may have slight overlap. The fastest approach is to add hatches with the CombineRegions option set to No for all rocks that have no overlap, which should be the majority of rocks. Then press Enter. Then with CombineRegions set to Yes, add hatches to the rocks that have multiple parts, and press Enter for each rock. Note that any objects extending outside of excavation boundaries will not require a hatch. For example, hypothetical rock shapes often extend outside of the excavation boundaries and do not represent closed curves; thus, they can not have a fill added. Another approach is to lock the Lots layer to only select rocks and other objects. Then you can add hatches to the rocks without worrying about areas that overlap with lots. However, rocks and other objects along the excavation boundaries will require the Lots layer to be unlocked and selectable. Note that any hatches can be combined or separated with the Group and Ungroup options from the Command window.</p>
+</section>
+<section id="exporting-to-adobe-illustrator">
+<h2>Exporting to Adobe Illustrator<a class="headerlink" href="#exporting-to-adobe-illustrator" title="Link to this heading">#</a></h2>
+<p>Once the basic outline of the drawing is complete, turn on and unlock all layers except the scanned Sketch. Optionally, add a simple scale bar using a single polyline that represents about half the dimension of the excavation unit (for example, for a 2 x 2 m unit, use a scale of 1 m). Left click and drag in the view port to select all elements. Go to File -&gt; Export Selection. Save as type Adobe Illustrator (*.ai). Keep the export options as Snapshot of current view and RGB.</p>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -514,6 +524,8 @@
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#drawing-the-limits-of-the-excavation-drawing">Drawing the Limits of the Excavation Drawing</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#drawing-the-lots-and-adding-a-fill-for-soils">Drawing the Lots and Adding a Fill for Soils</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#drawing-rocks-and-other-objects">Drawing Rocks and Other Objects</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#adding-fill-for-rocks-and-other-objects">Adding Fill for Rocks and Other Objects</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#exporting-to-adobe-illustrator">Exporting to Adobe Illustrator</a></li>
 </ul>
   </nav></div>
 

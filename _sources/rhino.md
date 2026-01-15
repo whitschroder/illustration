@@ -362,6 +362,15 @@ Alternatively, you might want to split a line into multiple segments. Type Split
 
 To add a fill or hatch to rocks or other objects, follow the same steps as adding fill to soils. The easiest way to add multiple hatches is to turn off the sketch and soils, leaving only the outlines of the rocks and the lots. Then select Drafting -> Hatch. Ensure that the Boundary option is checked, then begin adding hatches. Toggle the CombineRegions on and off while adding hatches so that each rock has its own fill. Zoom in to make sure you are adding fill to small areas that may have slight overlap. The fastest approach is to add hatches with the CombineRegions option set to No for all rocks that have no overlap, which should be the majority of rocks. Then press Enter. Then with CombineRegions set to Yes, add hatches to the rocks that have multiple parts, and press Enter for each rock. Note that any objects extending outside of excavation boundaries will not require a hatch. For example, hypothetical rock shapes often extend outside of the excavation boundaries and do not represent closed curves; thus, they can not have a fill added. Another approach is to lock the Lots layer to only select rocks and other objects. Then you can add hatches to the rocks without worrying about areas that overlap with lots. However, rocks and other objects along the excavation boundaries will require the Lots layer to be unlocked and selectable. Note that any hatches can be combined or separated with the Group and Ungroup options from the Command window.
 
+```{image} /images/sketch1.jpg
+:alt: Sketch 1
+:class: bg-primary mb-1
+:width: 80%
+:align: center
+```
+
+<br>
+
 ```{image} /images/rockhatch.jpg
 :alt: Rock Hatch
 :class: bg-primary mb-1

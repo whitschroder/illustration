@@ -2,7 +2,7 @@
 
 ## Opening the Drawing in Adobe Illustrator and Copying to the Template
 
-Now open the .ai file in Adobe Illustrator. Open the template file in a new tab. Select all elements of your drawing by left clicking and dragging with the Selection tool. Use Edit -> Copy, then switch tabs to the template file. Unlock all layers, and in the hamburger menu, turn on Paste Remembers Layers. Then use Edit -> Paste.
+Now open the .ai file in Adobe Illustrator. Open the ({Download}`Template.ai<./Template.ai>`) file in a new tab. Select all elements of your drawing by left clicking and dragging with the Selection tool. Use Edit -> Copy, then switch tabs to the template file. Unlock all layers, and in the hamburger menu, turn on Paste Remembers Layers. Then use Edit -> Paste.
 
 Resize the drawing by selecting all elements, and matching your polyline scale to the template scale bar. You can move all elements by clicking inside the drawing and dragging, and rescale by holding the shift key and dragging one of the corners of the drawing. Then move the drawing to the center of the artboard. Resize the artboard by clicking Document Setup, the Edit Artboards. After resizing the artboard click the Select tool to exit out of the artboard. Unlock the Background layer and resize to match the artboard. Select and move the text (scale bar and legend) if necessary. Edit the scale bar text if necessary so that the higher value matches the scale. Now select the polyline you drew in Rhino to match the scale, and delete.
 
